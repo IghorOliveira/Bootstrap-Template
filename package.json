@@ -1,0 +1,28 @@
+{
+  "name": "custom-theme",
+  "version": "1.0.0",
+  "description": "Leraning Bootstrap v5 with Sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:css"
+  },
+  "keywords": [
+    "Bootstrap",
+    "\u001b[D\u001b[D\u001b[",
+    "bootstrap-v5",
+    "sass",
+    "learn-bootstrap",
+    "learn-sass"
+  ],
+  "author": "Ighor Alves",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "autoprefixer": "^10.4.13",
+    "bootstrap": "^5.2.3",
+    "postcss-cli": "^8.3.1"
+  }
+}

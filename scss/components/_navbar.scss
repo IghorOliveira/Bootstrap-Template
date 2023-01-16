@@ -1,0 +1,15 @@
+@use '../partials/custom' as *;
+@use '../partials/mixins' as *;
+
+.menu{
+    @include gradient;
+
+    div{
+        padding: 0 0.7rem;
+
+        a{
+            color: #fff;
+            text-transform: capitalize;
+        } 
+    }
+}
