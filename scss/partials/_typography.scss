@@ -1,0 +1,47 @@
+@use '../partials/custom' as *;
+
+//Intro Section
+.display-2 {
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    color: $white;
+    font-family: 'Poppins', sans-serif;
+
+    &--intro {
+        display: inline-block;
+        font-weight: 700;
+        font-size: 5rem;
+    }
+
+    &--description{
+        font-size: 1rem;
+        display: block;
+        margin-top: 1.2rem;
+        text-transform: none;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 1.4rem;
+            display: inline-block;
+        }
+    }
+}
+
+//Companies Section
+.heading-line::before{
+    content: '';
+    width: 10rem;
+    height: 0.1rem;
+    display: block;
+    background-color: $primary;
+    margin: 0 auto;
+}
+
+.heading-line::after{
+    content: '';
+    width: 2rem;
+    height: 0.2rem;
+    display: block;
+    background-color: $primary;
+    padding-top: 0.5rem;
+    margin: 0 auto;
+}

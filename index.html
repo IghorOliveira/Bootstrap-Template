@@ -5,37 +5,132 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning Bootstrap 5 with Sass</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fontwaesome.css">
+    <link rel="stylesheet" href="assets/vendors/css/glightbox.min.css">
 </head>
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark menu">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="images/logo.png" alt="Logo image">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav align-items-center">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Services</a>
-              <a class="nav-link" href="#">Testimonials</a>
-              <a class="nav-link" href="#">FAQ</a>
-              <a class="nav-link" href="#">Portifolio</a>
-              <a class="nav-link" href="#">Contact</a>
-              <button type="button" class="rounded-pill btn-rounded">+1 728365413
+    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/logo.png" alt="Logo image">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav align-items-center">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#">Testimonials</a>
+            <a class="nav-link" href="#">FAQ</a>
+            <a class="nav-link" href="#">Portifolio</a>
+            <a class="nav-link" href="#">Contact</a>
+            <button type="button" class="rounded-pill btn-rounded">
+              +1 728365413
+              <span>
+                <i class="fas fa-phone-alt"></i>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Start Intro -->
+    <section id="home" class="intro-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 intros">
+            <h1 class="display-2">
+              <span class="display-2--intro">Hey! I'm Patrick</span>
+              <span class="display-2--description lh-base">This is a multi-porpose responsive layout created with Bootstrap v5. (Here you can place your description text).</span>
+            </h1>
+            <button type="button" class="rounded-pill btn-rounded">Get in Touch
+              <span>
+                <i class="fas fa-arrow-right"></i>
+              </span>
+            </button>
+          </div>
+          <div class="col-md-6 intros text-end">
+            <div class="video-box">
+              <img src="assets/images/intro-section-illustration.png" alt="video illustration" class="img-fluid">
+              <a href="" class="glightbox position-absolute top-50 start-50 translate-middle">
                 <span>
-                  <i class="fas fa-phone-alt"></i>
+                  <i class="fas fa-play-circle"></i>
                 </span>
-              </button>
+                <span class="border-animation border-animation--border-1"></span>
+                <span class="border-animation border-animation--border-2"></span>
+              </a>
             </div>
           </div>
         </div>
-      </nav>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,133.3C96,171,192,245,288,261.3C384,277,480,235,576,186.7C672,139,768,85,864,106.7C960,128,1056,224,1152,245.3C1248,267,1344,213,1392,186.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+    
+    <!-- Companies -->
+    <section id="companies" class="companies">
+      <div class="container">
+        <div class="row text-center">
+          <h4 class="fw-bold lead mb-3">Trusted by companies like</h4>
+          <div class="heading-line mb-5"></div>
+        </div>
+      </div>
 
-    <script src="/js/bootstrap.bundle.js"></script>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="companies__logo-box shadow-sm">
+              <img src="assets/images/company-1.png" alt="Company 1 logo" title="Company 1 logo" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="companies__logo-box shadow-sm">
+              <img src="assets/images/company-2.png" alt="Company 2 logo" title="Company 2 logo" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="companies__logo-box shadow-sm">
+              <img src="assets/images/company-3.png" alt="Company 3 logo" title="Company 3 logo" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="companies__logo-box shadow-sm">
+              <img src="assets/images/company-4.png" alt="Company 4 logo" title="Company 4 logo" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="companies__logo-box shadow-sm">
+              <img src="assets/images/company-5.png" alt="Company 5 logo" title="Company 5 logo" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="companies__logo-box shadow-sm">
+              <img src="assets/images/company-6.png" alt="Company 6 logo" title="Company 6 logo" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Scripts -->
+    <script src="assets/vendors/js/glightbox.min.js"></script>
+    <script type="text/javascript">
+      const lightbox = GLightbox({
+        'href': 'https://www.youtube.com/watch?v=BxV14h0kFs0&t=29s',
+        'type': 'video',
+        'source': 'youtube', //vimeo, youtube or local
+        'width': 900,
+        'autoplayVideos': false,
+        'touchNavigation': true
+      });
+    </script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
 </body>
 </html>

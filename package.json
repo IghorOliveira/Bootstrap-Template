@@ -24,5 +24,13 @@
     "autoprefixer": "^10.4.13",
     "bootstrap": "^5.2.3",
     "postcss-cli": "^8.3.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IghorOliveira/Bootstrap-Template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IghorOliveira/Bootstrap-Template/issues"
+  },
+  "homepage": "https://github.com/IghorOliveira/Bootstrap-Template#readme"
 }

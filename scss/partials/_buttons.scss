@@ -4,7 +4,7 @@
 .btn-rounded {
     position: relative;
     padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
-    font-weight: 500;
+    font-weight: 700;
     margin: 0;
     border: 0.1rem solid rgba(#fff, 0.6);
     background: $white;
@@ -31,6 +31,7 @@
         @include gradient;
         color: white;
         font-weight: 700;
+        margin: 0;
 
         span {
             background: $purple-light
