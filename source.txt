@@ -1,7 +1,0 @@
-https://www.youtube.com/watch?v=iJKCj8uAHz8&t=1240s
-
-3:20:20
-
-npm run compile:sass
-
-centering an image on a div with Bootstrap classes: position-absolute top-50 start-50 translate-middle
